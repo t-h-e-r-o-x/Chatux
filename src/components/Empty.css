@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+
+.Empty{
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.Empty_name{
+  color: #fff;
+}
+
+.Empty_status,
+.Empty_info{
+  padding: 1rem;
+}
+
+.Empty_status{
+  color:rgba(255,255,255,0.9);
+  border-bottom:1px solid rgba(255,255,255,0.7);
+}
+
+.Empty_img{
+  border-radius:50%;
+  margin: 2rem 0;
+}
+
+.Empty_btn{
+  padding: 1rem;
+  margin: 1rem 0;
+  color:rgba(255,255,255,0.5);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border:2px solid rgba(255,255,255,0.2);
+  border-radius: 30px;
+  background:none;
+  outline: 0;
+  font-family:Nunito Sans;
+  transition:0.4s ease;
+}
+
+.Empty_btn:hover{
+  background: rgba(0,0,0,0.7);
+  border: none;
+  cursor: pointer;
+}
