@@ -1,0 +1,6 @@
+.ChatWindow {
+  display: flex ;
+  flex-direction:column;
+  height: 100vh; /*makes sure that the chat window takes up the entire available height */
+  border:5px solid rgba(255,0,0,0.4);
+}
